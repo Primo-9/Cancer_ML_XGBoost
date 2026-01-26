@@ -38,8 +38,8 @@ An **XGBoost Regressor** was used due to its strong performance on structured ta
 
 ## 📈 Evaluation Metrics
 Model performance was evaluated using:
-- **R² Score ≈ 0.75**
-- **RMSE ≈ 12**
+- **R² Score ≈ 0.8088**
+- **RMSE ≈ 10.4354**
 
 These results indicate that the model explains approximately 75% of the variance in 10-year survival rates, which is strong for population-level clinical data.
 
@@ -49,7 +49,7 @@ Feature importance analysis shows that:
 - Age-related variables
 - Population metrics
 
-  <img width="987" height="782" alt="image" src="https://github.com/user-attachments/assets/e829428c-f2d1-4af3-a373-b82270d8b073" />
+<img width="1102" height="447" alt="image" src="https://github.com/user-attachments/assets/e068e1d0-b2ea-4c3d-9d0e-901333deb0d6" />
 
 
 contribute most strongly to survival rate predictions. This aligns with known epidemiological trends, suggesting that the model is learning meaningful clinical patterns rather than noise.
@@ -59,7 +59,7 @@ contribute most strongly to survival rate predictions. This aligns with known ep
 - Predictions are more accurate for mid-range survival values, with higher error at extreme values, likely due to data sparsity and biological variability.
 - The model is suitable for trend analysis and comparative studies across cancer groups, but not for individual patient prognosis.
 
-  <img width="1221" height="497" alt="image" src="https://github.com/user-attachments/assets/50150a49-bd34-4002-8828-4a60a4d8db40" />
+<img width="988" height="789" alt="image" src="https://github.com/user-attachments/assets/6ae4cda4-281f-4083-9e92-1a52e1914720" />
 
 
 ## 🚀 How to Run
