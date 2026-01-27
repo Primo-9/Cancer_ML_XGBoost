@@ -41,7 +41,7 @@ Model performance was evaluated using:
 - **R² Score ≈ 0.8088**
 - **RMSE ≈ 10.4354**
 
-These results indicate that the model explains approximately 75% of the variance in 10-year survival rates, which is strong for population-level clinical data.
+These results indicate that the model explains approximately 80% of the variance in 10-year survival rates, which is strong for population-level clinical data.
 
 ## 🔍 Feature Importance
 Feature importance analysis shows that:
